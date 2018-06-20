@@ -1,7 +1,7 @@
 ###CONNECTION WITH LOCAL SERVER###
 import time
 import psycopg2
-conn = psycopg2.connect(database = 'mydb',user = 'postgres',password = 'Eish@postgres11',port = '5432',host = '127.0.0.1')
+conn = psycopg2.connect(database = 'mydb',user = 'postgres',password = '********',port = '5432',host = '127.0.0.1')
 cur = conn.cursor()
 
 
